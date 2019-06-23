@@ -1,5 +1,5 @@
 {
-  "name": "data-table",
+  "name": "northrop.io-data-table",
   "version": "1.0.0",
   "description": "React DataTable Component",
   "main": "build/index.js",
