@@ -2,12 +2,12 @@
 
 ### Installation
 
-`npm install northrop.io/data-table`
+`npm install northrop.io-data-table`
 
 ### Usage
 
 ```
-import DataTable from 'northrop.io/data-table'
+import DataTable from 'northrop.io-data-table'
 
 export default const Component = props => {
 
