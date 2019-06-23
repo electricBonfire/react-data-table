@@ -14,6 +14,10 @@ export default const Component = props => {
   const handleEdit = (row) => {
     ...
   }
+  
+  const onRowClick = (row) => {
+    ...
+  }
 
   const rows = [
     {
@@ -42,7 +46,7 @@ export default const Component = props => {
   }
 
   return (
-    <DataTable data={data} />
+    <DataTable data={data} onRowClick={onRowClick}/>
   )
 }
 ```
