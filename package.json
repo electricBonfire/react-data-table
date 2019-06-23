@@ -1,0 +1,28 @@
+{
+  "name": "data-table",
+  "version": "1.0.0",
+  "description": "React DataTable Component",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "northrop.io",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "webpack": "^4.35.0"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.4"
+  }
+}
