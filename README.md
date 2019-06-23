@@ -20,7 +20,8 @@ export default const Component = props => {
       firstname: "Jimmy",
       lastname: "Jazz",
       genre: "Blues"
-    }
+    },
+    { ... }
   ]
 
   const data = {
