@@ -2,11 +2,12 @@
   "name": "data-table",
   "version": "1.0.0",
   "description": "React DataTable Component",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack"
   },
+  "repository": "github:electricBonfire/react-data-table.git",
   "author": "northrop.io",
   "license": "ISC",
   "dependencies": {

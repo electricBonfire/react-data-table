@@ -1,7 +1,7 @@
 var path = require('path');
 module.exports = {
     mode: 'production',
-  entry: './src/index.js',
+  entry: './src/DataTable.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
@@ -16,7 +16,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/env']
+            presets: ['@babel/preset-env']
           }
         }
       }
